@@ -1,22 +1,15 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 export const avSlice = createSlice({
-  name: "av",
-  initialState: [
-    
-  ],
+	name: 'av',
+	initialState: [],
 
-
-  reducers: {
-    incrementAvQuantity: (state, action) => {
-      
-    },
-    decrementAvQuantity: (state, action) => {
-     
-    },
-  },
+	reducers: {
+		incrementAvQuantity: (state, action) => {},
+		decrementAvQuantity: (state, action) => {}
+	}
 });
 
-export const { incrementAvQuantity, decrementAvQuantity } = avSlice.actions;
+export const {incrementAvQuantity, decrementAvQuantity} = avSlice.actions;
 
 export default avSlice.reducer;
